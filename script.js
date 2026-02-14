@@ -1,5 +1,5 @@
 /* Typing Animation */
-const text = "Hey Jasmeen💕 yeh chhota sa surprise sirf tumhare liye hai. Tumhari ek muskaan meri saari thakaan chura leti hai, aur tumhari ek nazar mera din bana deti hai. Kuch ehsaas lafzon mein bayaan nahi hote, par phir bhi dil har baar tumhara naam le leta hai.  Tum ho toh khamoshi bhi pyaari lagti hai, aur tum na ho toh bheed mein bhi tanhaai si mehsoos hoti hai.  Shayad isiliye kehte hain, kuch rishte likhe nahi jaate… mehsoos kiye jaate hain.  Tum ho toh har pal thoda zyada pyaara, har lamha thoda zyada khaas, aur meri duniya thodi aur khoobsurat lagti hai 🌹";
+const text = "Hey Babbbyyyy💕Sorry...I know mai thoda late ho gya, itne chhote se gift ke liye.\n Ye likhte hue mujhe pata chal rha hai ki tum kitni important ho mere liye.❤️\n Mai jab bhi ye song sunta hu mujhe tumhari hi yaad aati, i wish tum yaha hote mujhe gale lagane ke liye🫂\n I miss you everyday🙃 & I love you Forever😘\n Aur haan!! You are in my wallet and in my heart🐰";
 const typingElement = document.getElementById("typingText");
 let index = 0;
 
