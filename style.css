@@ -101,9 +101,40 @@ button {
 .sweet-text {
   font-size: 20px;
 }
+/*audio control*/
+.music-btn {
+  position: fixed;
+  top: 130px;
+  right: 275px;
+  z-index: 10;
+
+  padding: 8px 14px;
+  font-size: 14px;
+  border-radius: 20px;
+  border: none;
+
+  background: rgba(255, 255, 255, 0.85);
+  color: #162890;
+  font-weight: 500;
+
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+
+  transition: all 0.3s ease;
+}
+
+.music-btn:hover {
+  transform: scale(1.05);
+  background: white;
+}
+
+.music-btn:active {
+  transform: scale(0.95);
+}
 
 /* 📱 Mobile friendly */
-@media (max-width: 768px) {
+@media (max-width: 786px) {
   .message-box {
     font-size: 19px;
     min-height: 110px;
@@ -111,6 +142,10 @@ button {
   body {
     background-size: contain;
     background-color: #000; /* or pink to match theme */
+  }
+    .music-btn {
+    font-size: 13px;
+    padding: 7px 12px;
   }
 
   .question {

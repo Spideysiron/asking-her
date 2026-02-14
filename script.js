@@ -11,6 +11,17 @@ function typeText() {
   }
 }
 typeText();
+/* audio */
+/* Play Music Button */
+const bgMusic = document.getElementById("bgMusic");
+const musicBtn = document.getElementById("musicBtn");
+
+musicBtn.addEventListener("click", () => {
+  bgMusic.volume = 0.7;
+  bgMusic.play().then(() => {
+    musicBtn.style.display = "none";
+  }).catch(() => {});
+});
 
 /* Buttons */
 const noBtn = document.getElementById("noBtn");
