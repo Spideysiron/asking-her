@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: url(background.jpg) no-repeat center center/cover;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  background-position: 70% center;
+}
+
+.overlay {
+  background: rgba(234, 190, 212, 0.6);
+  position: fixed;
+  inset: 0;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.container {
+  position: relative;
+  z-index: 2;
+  background: rgba(255, 182, 193, 0.9);
+  padding: 30px;
+  border-radius: 25px;
+  text-align: center;
+  width: 90%;
+  max-width: 420px;
+  box-shadow: 0 0 30px rgba(255, 20, 147, 0.5);
+}
+
+/* 🔥 BIGGER MESSAGE BLOCK */
+.message-box {
+  font-size: 22px;
+  min-height: 220px;      /* makes it taller */
+  padding: 10px;          /* space inside box */
+  margin-bottom: 30px;
+  background: rgba(255, 105, 180, 0.35);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: pre-line;
+}
+
+
+.question {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  position: relative;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  padding: 12px 30px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#yesBtn {
+  background: #ff1493;
+  color: white;
+}
+
+#noBtn {
+  background: white;
+  color: #ff1493;
+}
+
+.result {
+  display: none;
+  margin-top: 25px;
+}
+
+.result img {
+  width: 100%;
+  max-width: 260px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.sweet-text {
+  font-size: 20px;
+}
+
+/* 📱 Mobile friendly */
+@media (max-width: 480px) {
+  .message-box {
+    font-size: 19px;
+    min-height: 110px;
+  }
+
+  .question {
+    font-size: 18px;
+  }
+}
